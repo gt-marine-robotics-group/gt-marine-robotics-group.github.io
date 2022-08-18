@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://gt-marine-robotics-group.github.io/devops/ros/wsl/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://gt-marine-robotics-group.github.io/devops/ros/vm/" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>WSL - GTMRG Wiki</title>
+    <title>VM - GTMRG Wiki</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "WSL";
-        var mkdocs_page_input_path = "devops/ros/wsl.md";
-        var mkdocs_page_url = "/devops/ros/wsl/";
+        var mkdocs_page_name = "VM";
+        var mkdocs_page_input_path = "devops/ros/vm.md";
+        var mkdocs_page_url = "/devops/ros/vm/";
       </script>
     
     <script src="../../../js/jquery-3.6.0.min.js" defer></script>
@@ -57,11 +57,15 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">ROS Installation</a>
     <ul class="current">
-                <li class="toctree-l2 current"><a class="reference internal current" href="./">WSL</a>
-    <ul class="current">
-    </ul>
+                <li class="toctree-l2"><a class="reference internal" href="../wsl/">WSL</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../vm/">VM</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">VM</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#macos">MacOS</a>
+    </li>
+    </ul>
                 </li>
     </ul>
                   </li>
@@ -82,7 +86,7 @@
     <li><a href="../../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
           <li>Dev Ops &raquo;</li>
           <li>ROS Installation &raquo;</li>
-      <li>WSL</li>
+      <li>VM</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -91,18 +95,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="ros-installation-on-windows-via-wsl2">ROS Installation on Windows via WSL2</h1>
-<p>Through Windows Subsystem for Linux 2 (WSL2), Ubuntu can be installed on a Windows machine without 
-the need for dual booting. See the video below for more.</p>
+                <h1 id="ros-installation-via-vm">ROS Installation via VM</h1>
+<h2 id="windows">Windows</h2>
+<p>Virtual machines (VMs) allow for the simulation of other operating systems on your native operating system.</p>
+<p>The video below covers the installation of ROS1 Melodic through the use of a VM.</p>
 <div class="video-wrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zo9Ms2_U_4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e2nIShXX1iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<h2 id="macos">MacOS</h2>
+<p>For MacOS, you can use Parallels for VMs.</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../networking/" class="btn btn-neutral float-left" title="Networking"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../vm/" class="btn btn-neutral float-right" title="VM">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../wsl/" class="btn btn-neutral float-left" title="WSL"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -125,10 +132,8 @@ the need for dual booting. See the video below for more.</p>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../networking/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../wsl/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../vm/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
