@@ -1,5 +1,6 @@
 site_name: GTMRG Wiki
-site_url: https://gt-marine-robotics-group.github.io/wiki
+site_url: https://gt-marine-robotics-group.github.io
 nav:
-  - Home: home.md
+  - Home: index.md
 theme: readthedocs
+
