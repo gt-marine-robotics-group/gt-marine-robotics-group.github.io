@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://gt-marine-robotics-group.github.io/devops/ros/wsl/</loc>
+         <lastmod>2022-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://gt-marine-robotics-group.github.io/nova/firmware/</loc>
          <lastmod>2022-08-18</lastmod>
          <changefreq>daily</changefreq>
