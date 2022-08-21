@@ -35,6 +35,14 @@ Welcome to [the road not taken](https://www.poetryfoundation.org/poems/44272/the
 ### ROS2 on Linux Distributions other than Ubuntu
 On Linux distributions other than Ubuntu, methods involving Docker or Podman containers will likely provide the highest level of integration with the system. Distrobox may be a useful tool for this scenario.
 
+#### Distrobox
+Install [Distrobox](https://github.com/89luca89/distrobox) and create an image with the current version of Ubuntu.
+
+```
+distrobox-create --image ubuntu:20.04 --name ub20
+distrobox-enter ub20
+```
+
 ### ROS2 on Ubuntu Linux
 For Ubuntu, the instructions available on the [ROS2 documentation](https://docs.ros.org/en/foxy/Installation.html) should suffice for installation.
 
