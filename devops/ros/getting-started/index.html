@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://gt-marine-robotics-group.github.io/devops/ros/wsl/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://gt-marine-robotics-group.github.io/devops/ros/getting-started/" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>WSL - GTMRG Wiki</title>
+    <title>Getting Started with ROS2 - GTMRG Wiki</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "WSL";
-        var mkdocs_page_input_path = "devops/ros/wsl.md";
-        var mkdocs_page_url = "/devops/ros/wsl/";
+        var mkdocs_page_name = "Getting Started with ROS2";
+        var mkdocs_page_input_path = "devops/ros/getting-started.md";
+        var mkdocs_page_url = "/devops/ros/getting-started/";
       </script>
     
     <script src="../../../js/jquery-3.6.0.min.js" defer></script>
@@ -52,16 +52,14 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Dev Ops</span></p>
-              <ul class="current">
+              <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../networking/">Networking</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">ROS Installation</a>
-    <ul class="current">
-                <li class="toctree-l2 current"><a class="reference internal current" href="./">WSL</a>
-    <ul class="current">
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">ROS Installation</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../wsl.md">WSL</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../vm/">VM</a>
+                <li class="toctree-l2"><a class="" href="../vm.md">VM</a>
                 </li>
     </ul>
                   </li>
@@ -80,9 +78,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Dev Ops &raquo;</li>
-          <li>ROS Installation &raquo;</li>
-      <li>WSL</li>
+      <li>Getting Started with ROS2</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -91,19 +87,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="ros-installation-on-windows-via-wsl2">ROS Installation on Windows via WSL2</h1>
-<p>Through Windows Subsystem for Linux 2 (WSL2), Ubuntu can be installed on a Windows machine without 
-the need for dual booting. See the video below for more.</p>
+                <h1 id="getting-started-with-ros2">Getting Started with ROS2</h1>
+<p>Robot Operating System 2 (ROS2) is the robotics framework upon which we base our software. </p>
+<p>Currently, we use <strong>ROS2 Foxy Fitzroy</strong> (released for Ubuntu 20.04 LTS).</p>
+<h2 id="installing-ros2">Installing ROS2</h2>
+<p>ROS2 is most well-supported on the Ubuntu Linux operating system, and most packages are developed with this OS in mind. While ROS2 is supported on Windows and to a limited extent on MacOS, our robots will be running Ubuntu, so it is best if we keep our development and deployment environments as similar as possible.</p>
+<p>It is possible to work with Ubuntu on your Windows or Mac machines with x86 processors. ARM processors such as the M-series on Macs may cause complications. In most cases, you will end up with either a virtual or native version of Ubuntu on your system, and will follow the instructions for Ubuntu as the final step.</p>
+<p>If this proves to be difficult for your system, computers are available in the lab for working with ROS2.</p>
+<h3 id="ros2-on-windows">ROS2 on Windows</h3>
+<h4 id="using-windows-subsystem-for-linux-2-wsl2">Using Windows Subsystem for Linux 2 (WSL2)</h4>
+<p>Through Windows Subsystem for Linux 2 (WSL2), Ubuntu can be installed on a Windows machine without the need for dual booting. See the video below for more.</p>
 <div class="video-wrapper">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Zo9Ms2_U_4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<h4 id="using-virtual-machine-vms">Using Virtual Machine (VMs)</h4>
+<p>Virtual machines (VMs) allow for the simulation of other operating systems on your native operating system. The video below covers the installation of <strong>ROS1 Melodic</strong> through the use of a VM. Note that <strong>this is not the current version</strong> of Ubuntu or ROS that we are using.</p>
+<div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e2nIShXX1iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<h4 id="dual-booting">Dual Booting</h4>
+<p>With most Windows machines, given enough storage space, it is possible to partition the disk and boot both Windows and Ubuntu natively on the same machine. However, this is also the most involved method of using Ubuntu with a Windows machine, and a backup of your files is highly recommended before attempting this.</p>
+<h3 id="ros2-on-macos">ROS2 on MacOS</h3>
+<p>Welcome to <a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken">the road not taken</a>. We have not yet investigated ROS2 on MacOS (Intel or M-series). If you're interested in paving this road, please let someone know!</p>
+<h3 id="ros2-on-linux-distributions-other-than-ubuntu">ROS2 on Linux Distributions other than Ubuntu</h3>
+<p>On Linux distributions other than Ubuntu, methods involving Docker or Podman containers will likely provide the highest level of integration with the system. Distrobox may be a useful tool for this scenario.</p>
+<h3 id="ros2-on-ubuntu-linux">ROS2 on Ubuntu Linux</h3>
+<p>For Ubuntu, the instructions available on the <a href="https://docs.ros.org/en/foxy/Installation.html">ROS2 documentation</a> should suffice for installation.</p>
               
             </div>
           </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../networking/" class="btn btn-neutral float-left" title="Networking"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../vm/" class="btn btn-neutral float-right" title="VM">Next <span class="icon icon-circle-arrow-right"></span></a>
-    </div>
 
   <hr/>
 
@@ -125,10 +139,6 @@ the need for dual booting. See the video below for more.</p>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../networking/" style="color: #fcfcfc">&laquo; Previous</a></span>
-    
-    
-      <span><a href="../vm/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
