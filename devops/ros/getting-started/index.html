@@ -129,6 +129,11 @@
 <p>Welcome to <a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken">the road not taken</a>. We have not yet investigated ROS2 on MacOS (Intel or M-series). If you're interested in paving this road, please let someone know!</p>
 <h3 id="ros2-on-linux-distributions-other-than-ubuntu">ROS2 on Linux Distributions other than Ubuntu</h3>
 <p>On Linux distributions other than Ubuntu, methods involving Docker or Podman containers will likely provide the highest level of integration with the system. Distrobox may be a useful tool for this scenario.</p>
+<h4 id="distrobox">Distrobox</h4>
+<p>Install <a href="https://github.com/89luca89/distrobox">Distrobox</a> and create an image with the current version of Ubuntu.</p>
+<pre><code>distrobox-create --image ubuntu:20.04 --name ub20
+distrobox-enter ub20
+</code></pre>
 <h3 id="ros2-on-ubuntu-linux">ROS2 on Ubuntu Linux</h3>
 <p>For Ubuntu, the instructions available on the <a href="https://docs.ros.org/en/foxy/Installation.html">ROS2 documentation</a> should suffice for installation.</p>
               
