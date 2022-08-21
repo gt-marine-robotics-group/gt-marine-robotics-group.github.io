@@ -6,9 +6,9 @@ nav:
     - Firmware: nova/firmware.md
     - Supernova v1: nova/supernova_v1.md
   - Dev Ops:
+    - Software Guide: devops/guide.md
     - Networking: devops/networking.md
-    - ROS Installation: 
-      - WSL: devops/ros/wsl.md
-      - VM: devops/ros/vm.md
+    - ROS2: 
+      - Getting Started: devops/ros/getting-started.md
 theme: readthedocs
 

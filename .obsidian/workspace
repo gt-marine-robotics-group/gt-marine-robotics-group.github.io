@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "299f8b874f5d5774",
+    "type": "split",
+    "children": [
+      {
+        "id": "294fd801be1a5745",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/devops/guide.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "931f501c3b09dd58",
+    "type": "split",
+    "children": [
+      {
+        "id": "454880b5ab75f9ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17c1b98d26300c3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "33c7f073f2cfe81d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e56210e321793a36",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c085b185f272aeba",
+    "type": "split",
+    "children": [
+      {
+        "id": "1890eaa6d8e55577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "725ddce0665f2142",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/devops/guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "161891c736fcef6c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/devops/guide.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2315caba1b3f21cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d70e34338445b1b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/devops/guide.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "294fd801be1a5745",
+  "lastOpenFiles": [
+    "docs/devops/devops.md",
+    "docs/devops/ros/getting-started.md",
+    "docs/devops/guide.md",
+    "docs/devops/networking.md",
+    "docs/devops/ros/learning.md",
+    "docs/devops/ros/vm.md",
+    "docs/devops/ros/wsl.md",
+    "docs/devops/ros/windows.md",
+    "docs/nova/supernova_v1.md",
+    "docs/nova/firmware.md"
+  ]
+}
