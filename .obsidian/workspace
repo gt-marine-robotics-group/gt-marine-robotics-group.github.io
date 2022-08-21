@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/devops/guide.md",
+            "file": "docs/devops/ros/getting-started.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/devops/guide.md",
+                "file": "docs/devops/ros/getting-started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/devops/guide.md",
+                "file": "docs/devops/ros/getting-started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/devops/guide.md"
+                "file": "docs/devops/ros/getting-started.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "294fd801be1a5745",
   "lastOpenFiles": [
+    "docs/nova/supernova.md",
+    "docs/devops/networking.md",
+    "docs/nova/firmware.md",
     "docs/devops/devops.md",
+    "docs/devops/ros/learning.md",
     "docs/devops/ros/getting-started.md",
     "docs/devops/guide.md",
-    "docs/devops/networking.md",
-    "docs/devops/ros/learning.md",
     "docs/devops/ros/vm.md",
     "docs/devops/ros/wsl.md",
-    "docs/devops/ros/windows.md",
-    "docs/nova/supernova_v1.md",
-    "docs/nova/firmware.md"
+    "docs/devops/ros/windows.md"
   ]
 }
