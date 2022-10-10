@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - Nova Motor Controller:
     - Firmware: nova/firmware.md
-    - Supernova v1: nova/supernova_v1.md
+    - Supernova v1: nova/supernova.md
   - Dev Ops:
     - Software Guide: devops/guide.md
     - Networking: devops/networking.md
