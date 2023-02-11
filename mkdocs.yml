@@ -12,6 +12,7 @@ nav:
       - Getting Started: devops/ros/getting-started.md
   - Fleet:
     - Archive:
-      - ASV2016 Vinny: fleet/archive/asv2016-vinny
+      - Vinny (ASV2016): fleet/archive/asv2016-vinny
+      - Plongeur (AUV2016): fleet/archive/auv2016-plongeur
 theme: readthedocs
 
