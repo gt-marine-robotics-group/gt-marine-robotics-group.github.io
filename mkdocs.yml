@@ -10,5 +10,8 @@ nav:
     - Networking: devops/networking.md
     - ROS2: 
       - Getting Started: devops/ros/getting-started.md
+  - Fleet:
+    - Archive:
+      - ASV2016 Vinny: fleet/archive/asv2016-vinny
 theme: readthedocs
 
