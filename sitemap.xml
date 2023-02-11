@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://gt-marine-robotics-group.github.io/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/devops/devops/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/devops/guide/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/devops/networking/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/devops/ros/getting-started/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/devops/ros/learning/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gt-marine-robotics-group.github.io/fleet/archive/asv2016-vinny/</loc>
+         <lastmod>2023-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gt-marine-robotics-group.github.io/fleet/archive/auv2016-plongeur/</loc>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/nova/firmware/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gt-marine-robotics-group.github.io/nova/supernova/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2023-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
